@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt3</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="window" class="window hidden">
+      <h2>Okno Edycji</h2>
+      <form id="editForm">
+        <input id="editId" type="hidden" name="editId" />
+        <input id="editName" class="editName" type="text" name="editName" />
+        <input id="editInc" class="editInc" type="number" name="editInc" />
+        <button>Edytuj</button>
+      </form>
+    </div>
+    <div class="logo">LOGO</div>
+    <div class="difference">
+      <span id="N1" class="N1">Możesz jeszcze wydać: </span>
+    </div>
+    <div class="box">
+      <div class="container">
+        <div class="income">
+          <div id="przychody" class="header">
+            <h1>Przychody</h1>
+          </div>
+          <form class="income-form" id="addIncomeForm">
+            <input
+              class="name"
+              type="text"
+              name="newIncomeName"
+              placeholder="Nazwa dochodu"
+            />
+            <input
+              class="sum"
+              type="number"
+              name="newSumName"
+              placeholder="Kwota"
+            />
+            <button type="submit">Dodaj</button>
+          </form>
+        </div>
+      </div>
+      <div class="container2">
+        <div class:"expenses">
+        <div id="wydatki" class="header">
+          <h1>Wydatki</h1>
+        </div>
+        <form class="expenses-form" id="addDecomeForm">
+          <input
+            class="name2"
+            type="text"
+            name="newDecomeName"
+            placeholder="Nazwa wydatku"
+          />
+          <input
+            class="sum2"
+            type="number"
+            name="newMinName"
+            placeholder="kwota"
+          />
+          <button type="submit">Dodaj</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="sum_list_flex">
+      <ul class="incomebox" id="incomes"></ul>
+      <div id="incomesSum" class="suma">Suma przychodów: zł</div>
+      <ul class="decomebox" id="decomes"></ul>
+      <div id="decomesSum" class="suma2">Suma wydatków: 0zł</div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./budget.js"></script>
+  </body>
+</html>

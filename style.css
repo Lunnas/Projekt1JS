@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: auto;
+}
+.logo {
+  max-width: 70px;
+  border-radius: 40px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  z-index: 1;
+}
+.difference {
+  margin: 0;
+  text-align: center;
+}
+.box {
+  display: flex;
+}
+.container {
+  width: 50%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.income-form {
+  display: flex;
+  justify-content: space-around;
+  margin: 17px;
+}
+.expenses-form {
+  display: flex;
+  justify-content: space-around;
+  margin: 17px;
+}
+.container2 {
+  width: 50%;
+  border: 2px solid black;
+  text-align: center;
+}
+.header {
+  background: rgba(0, 255, 204, 0.201);
+  display: inline-block;
+  font-weight: bold;
+  margin: 12px;
+}
+.sum_list_flex {
+  display: flex;
+  margin: auto;
+  height: 20%;
+}
+.suma {
+  margin-top: 100%;
+  width: 50%;
+  height: 30px;
+  border: 2px solid black;
+  padding-left: 8px;
+  background: rgba(22, 93, 22, 0.407);
+  position: absolute;
+  bottom: 0;
+}
+.suma2 {
+  margin-left: 50%;
+  margin-top: 100%;
+  width: 50%;
+  height: 30px;
+  border: 2px solid black;
+  background: rgba(132, 14, 14, 0.455);
+  padding-left: 8px;
+  position: absolute;
+  bottom: 0;
+}
+ul li {
+  cursor: pointer;
+  padding: 10px 6px;
+  font-size: 15px;
+  width: auto;
+  position: relative;
+}
+input {
+  width: 40;
+  margin: 10px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  width: 60px;
+  background: white;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.N1 {
+  width: auto;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: rgba(136, 52, 136, 0.575);
+  border: 2px solid black;
+}
+.incomebox {
+  width: 50%;
+  border: 2px solid black;
+  padding-left: 20px;
+  background: rgb(151, 240, 151);
+}
+.decomebox {
+  width: 50%;
+  border: 2px solid black;
+  padding-left: 20px;
+  background: rgb(198, 106, 106);
+}
+.hidden {
+  display: none;
+}
+h2 {
+  padding-bottom: 20px;
+  margin-left: 20%;
+}
+.window {
+  position: absolute;
+  margin: 30%;
+  background-color: greenyellow;
+  border: 1px solid black;
+  z-index: 2;
+}
